@@ -9,6 +9,10 @@ def dobro(num1):
 def triplo(num2):
     return num2 *3
 
+def produto( num1,num2):
+    return (num1 *2)*(num2 *3)
+
 print("o dobro do primeiro", dobro(num1))
 print("o triplo do segundo",triplo(num2))
+print("o produto dos dois numeros",produto(num1,num2))
 
