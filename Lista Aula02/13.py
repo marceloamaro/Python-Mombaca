@@ -22,5 +22,5 @@ elif delta == 0:
     print("A equacao possui apenas uma raiz que e ",raiz)
 elif delta > 0:
     raiz1 =(-1*b + math.sqrt(delta))/(2 * a)
-    raiz2 =(-1*b + math.sqrt(delta))/(2 * a)
+    raiz2 =(+1*b + math.sqrt(delta))/(2 * a)
     print("As raizes da equacao sao ",raiz1, "e",raiz2)
