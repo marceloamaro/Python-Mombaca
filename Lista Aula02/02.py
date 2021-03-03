@@ -18,5 +18,5 @@ def produto( num1,num2):
 
 print("o dobro do primeiro", dobro(num1))
 print("o triplo do segundo",triplo(num2))
-print("o produto dos dois numeros",produto(num1,num2))
+print(" o produto do dobro do primeiro pelo triplo do segundo ",produto(num1,num2))
 
