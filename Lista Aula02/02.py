@@ -1,3 +1,7 @@
+"""
+Escreva uma função que receba dois números como argumento e retorne o produto do dobro
+do primeiro pelo triplo do segundo
+"""
 print('Digite primeiro numero')
 num1 = int(input())
 print('Digite segundo numero')
