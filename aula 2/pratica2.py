@@ -1,6 +1,15 @@
-estado_civil=input("informe a inicial do seu estado civil->")
+print("s=solteiro e c=casado")
+eu = input("Meu estado civil-->") 
+pessoa02=input("Diga o seu estado civil da segunda pessoa--> ")
 
-def match(estado_civil):
-    return estado_civil
 
-print("Inicial do seu estado civil é", match(estado_civil))    
+def match(eu, pessoa02):
+
+    if eu == pessoa02 :
+        return print("Bora")
+
+    else:
+        return print("Deixa quieto")
+
+        
+match(eu,pessoa02)
