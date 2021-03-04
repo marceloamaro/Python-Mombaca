@@ -11,3 +11,4 @@ while (cont < 11):
     tab = n1 * cont
     print(n1, 'x', cont, '= ', tab)
     cont += 1
+    
