@@ -1,15 +1,19 @@
 print("s=solteiro e c=casado")
-eu = input("Meu estado civil-->") 
-pessoa02=input("Diga o seu estado civil da segunda pessoa--> ")
+eu = str(input("Meu estado civil-->")) 
+pessoa02= str(input("Diga o seu estado civil da segunda pessoa--> "))
 
 
 def match(eu, pessoa02):
-
-    if eu == pessoa02 :
-        return print("Bora")
-
+    if eu == "s" and pessoa02 == "s":
+        return "Bora"
+    elif eu == "s" and pessoa02 == "c":
+        return "Deixa quieto"
+    elif eu == "c" and pessoa02 == "s":
+        return "Deixa quieto"
+    elif eu == "c" and pessoa02 == "c":
+        return "Deixa quieto"
     else:
-        return print("Deixa quieto")
+        return "invalido, informe s=solteiro e c=casado"
 
-        
-match(eu,pessoa02)
+x = match(eu, pessoa02) 
+print(x)
