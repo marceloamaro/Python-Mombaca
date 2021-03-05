@@ -8,12 +8,13 @@ anos = int(input('Anos a pagar:'))
 meses = anos * 12
 parcelas = valor_casa / meses
 minimo = salario *(30/100)
-
-if parcelas < minimo:
-    print('seu emprestimo foi aprovado.')
-else:
-    print('seu emprestimo não foi aprovado,pois o valor das parcelas é maior que 30% do seu salário que é de',minimo)
+def juros (parcelas, minimo):
+    if parcelas < minimo:
+        print('seu emprestimo foi aprovado.')
+    else:
+        print('emprestimo não foi aprovado,o valor das parcelas é maior que 30% do seu salário que é de',minimo)
 
 print('')
 print('O valor da casa dividido em', meses , 'meses é de:', parcelas,'por mes.')
 print('')
+x = juros (parcelas, minimo)
