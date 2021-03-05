@@ -3,8 +3,13 @@ Escreva uma função que simule o funcionamento de um radar eletrônico. Essa fu
 """
 velocidade = float(input("Qual a velocidade Atual do carro em km/h-->"))
 
-if velocidade > 80:
-    print("MULTADO, Voce execedeu o limite permitido de 80km/h")
-    multa = 90 +((velocidade - 80)*5)
-    print("o Valor da multa é de R${:.2f}!".format(multa) )
-print("tenha um bom dia, Dirigia com segurança")
+def result(velocidade):
+    if velocidade > 80:
+        print("MULTADO, o VIDAL lhe passou a caneta")
+        print("MULTADO, Voce execedeu o limite permitido de 80km/h")
+        multa = 90 +((velocidade - 80)*5)
+        print("o Valor da multa é de R${:.2f}!".format(multa) )
+    else:
+        print("tenha um bom dia, Dirigia com segurança")
+    return
+x = result(velocidade)    
