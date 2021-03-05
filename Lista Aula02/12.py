@@ -14,12 +14,5 @@ def area(raio2):
     return(3.14 *(raio2)**2)
 
 
-
-
-
-
-
-
-
 print("O perimetro da circuferncia é:", perimetro (raio))
 print("A area do da circuferncia é:", area(raio2))
