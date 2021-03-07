@@ -6,8 +6,10 @@ Gere as seguintes listas utilizando for e o metodo range():
     • Uma lista de primos de 44 até 99
 OBS: Pesquise pelo método append() na documentação
 """
-multiplo = [] 
-for i in range (40, 101):
+multiplos = []
+for i in range(40,101):
     if i % 2 == 0:
-            multiplo.append(i)
-    print("numeros multiplo de 2:", multiplo))
+        
+        multiplos.append(i)
+multiplos.reverse()
+print(multiplos)
