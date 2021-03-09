@@ -13,7 +13,10 @@ marceloamaro/Python-Mombaca
  ## 📝 Aula 03
  
  * [Lista de Exercícios](https://github.com/marceloamaro/Python-Mombaca/tree/master/Lista%20Aula03%20%20Decis%C3%B5es%20e%20Repeti%C3%A7%C3%B5es)
-
+ 
+## 📝 Aula 04
+ 
+ * [Lista de Exercícios](https://github.com/marceloamaro/Python-Mombaca/tree/master/Lista%20Aula04%20Fun%C3%A7%C3%B5es)
 
 
 ![](https://komarev.com/ghpvc/?username=Python-Mombaca&color=blue&style=flat)
