@@ -17,6 +17,13 @@ marceloamaro/Python-Mombaca
 ## 📝 Aula 04
  
  * [Lista de Exercícios](https://github.com/marceloamaro/Python-Mombaca/tree/master/Lista%20Aula04%20Fun%C3%A7%C3%B5es)
+ 
+ ## 📝 Avaliaçãp
+ 
+ * [Lista da Avaliaçao](https://github.com/marceloamaro/Python-Mombaca/tree/master/1%20avaliação)
+ 
+ 
+ 
 
 
 ![](https://komarev.com/ghpvc/?username=Python-Mombaca&color=blue&style=flat)
