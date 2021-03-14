@@ -3,9 +3,7 @@
 print("Escolha entre ('criptografar', 'c') ou ('descriptografar', 'd')")
 opcao = input("Deseja criptografar ou descriptografar? ")
 opcao = opcao.lower()
-print("Digite o valor da chave entre 1 e 26")
-chave = int(input("Digite o valor da chave: "))
-mensagem = input("Digite a mensagem: ")
+
    
 def encripta(mensagem, chave):
     cripto = ''
@@ -43,12 +41,21 @@ def descripta(mensagem, chave):
     return cripto
 
 if opcao == 'c' or opcao == 'criptografar':
+    print("Digite o valor da chave entre 1 e 26")
+    chave = int(input("Digite o valor da chave: "))
+    mensagem = input("Digite a mensagem: ")
     encripta(mensagem, chave)
     print(encripta(mensagem, chave))
 
 elif opcao == 'd' or opcao == 'descriptografar':
+    print("Digite o valor da chave entre 1 e 26")
+    chave = int(input("Digite o valor da chave: "))
+    mensagem = input("Digite a mensagem: ")    
     descripta(mensagem, chave)
     print(descripta(mensagem, chave))
+
+else:
+    print("opção invalida")    
 
     
 
