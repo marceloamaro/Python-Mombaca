@@ -6,7 +6,7 @@ for i in range(50, 101):
     print("impar", impares)
     
 
-pares = []
+pares =[]
 for i in range(30, 51):
     if i % 2 == 0:
             pares.append(i)
