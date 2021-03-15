@@ -65,3 +65,10 @@ nova_lista = [x - 1 for x in lista2]
 print (nova_lista)
 
 """
+lista1 = [1, 2 , "maju", 2021, 3.75]
+t_lista1 = tuple(lista1)
+print(t_lista1)
+l_lista1 = list(t_lista1)
+l_lista1.append('marcelo')
+t_lista1 = tuple(l_lista1)
+print(t_lista1)
