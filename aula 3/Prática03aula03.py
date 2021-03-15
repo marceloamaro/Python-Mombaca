@@ -25,7 +25,7 @@ def resultado(produto, categoria):
         desconto = produto*(20/100)
         return produto - desconto
     else:
-        return "invalido"
+        return "opção invalido"
             
 
 x = resultado(produto, categoria) 
