@@ -6,7 +6,7 @@ marceloamaro/Python-Mombaca
 
 
  ***
- ## 📝 Aula 02
+ ## 📝 Aula 02 .(https://github.com/marceloamaro/Python-Mombaca/tree/master/aula%202)
 
  * [Lista de Exercícios](https://github.com/marceloamaro/Python-Mombaca/tree/master/Lista%20Aula02)
 
