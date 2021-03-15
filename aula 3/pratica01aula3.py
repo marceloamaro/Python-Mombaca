@@ -16,4 +16,5 @@ def resultado(num1, num2, op):
         return "invalido"
 
 x = resultado(num1, num2, op) 
+
 print(x)       
