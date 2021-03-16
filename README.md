@@ -24,7 +24,7 @@ marceloamaro/Python-Mombaca
  ## 📝 Aula 05
 * [Aula](https://github.com/marceloamaro/Python-Mombaca/tree/master/aula%205)
  
- * [Lista de Exercícios]
+ * [Lista de Exercícios](https://github.com/marceloamaro/Python-Mombaca/tree/master/Lista%20Aula06%20-%20Listas%20e%20Tuplas)
  
  ## 📝 Avaliaçãp
  
