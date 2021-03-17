@@ -1,5 +1,5 @@
 """Encapsule o código da questão anterior em uma função, que recebe a lista criada e a letra de uma operação. A função deve retornar o resultado da operação representada por esta letra de acordo com o enunciado da questão anterior."""
-import os
+
 def operacao(lista,letra):
     if letra == "a" or letra == "A":
         print(f"Os dez primeiros números da lista são: {lista[0:10]}\n")
@@ -21,8 +21,7 @@ def operacao(lista,letra):
     else:
         print("letra invalida")
 
-letra = input("Digite uma letra\n")
-os.system('clear') 
+letra = input("Digite uma letra\n") 
 lista = []
 
 for i in range(0,41):
