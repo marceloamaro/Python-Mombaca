@@ -26,6 +26,10 @@ marceloamaro/Python-Mombaca
  
  * [Lista de Exercícios](https://github.com/marceloamaro/Python-Mombaca/tree/master/Lista%20Aula06%20-%20Listas%20e%20Tuplas)
  
+  ## 📝 Aula 06
+* [Aula](https://github.com/marceloamaro/Python-Mombaca/tree/master/aula%206)
+ 
+ * [Lista de Exercícios]
  ## 📝 Avaliaçãp
  
  * [Lista da Avaliaçao](https://github.com/marceloamaro/Python-Mombaca/tree/master/1%20avaliação)
