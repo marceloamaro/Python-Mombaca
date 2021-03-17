@@ -30,7 +30,7 @@ marceloamaro/Python-Mombaca
 * [Aula](https://github.com/marceloamaro/Python-Mombaca/tree/master/aula%206)
  
  * [Lista de Exercícios]
- ## 📝 Avaliaçãp
+ ## 📝 Avaliação 01
  
  * [Lista da Avaliaçao](https://github.com/marceloamaro/Python-Mombaca/tree/master/1%20avaliação)
  
