@@ -8,13 +8,13 @@ print('Digite segundo numero:')
 num2 = int(input())
 
 def quadruplo_divisao(num1):
-    return (num1 **4)/2
+    return (num1 *4)/2
 
 def quadrado(num2):
-    return num2 **2
+    return num2 *2
 
 def produto(quadruplo_divisao, quadrado):
-    return ((num1 **4)/2) / num2 **2
+    return ((num1 *4)/2) / num2 *2
 
 x = produto(quadruplo_divisao, quadrado)
 print("o resultado:")
