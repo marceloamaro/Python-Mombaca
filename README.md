@@ -29,7 +29,7 @@ marceloamaro/Python-Mombaca
   ## 📝 Aula 06
 * [Aula](https://github.com/marceloamaro/Python-Mombaca/tree/master/aula%206)
  
- * [Lista de Exercícios]
+ * [Lista de Exercícios](https://github.com/marceloamaro/Python-Mombaca/tree/master/Lista%20Aula07%20-%20Dicion%C3%A1rios%20e%20Sets)
  ## 📝 Avaliação 01
  
  * [Lista da Avaliaçao](https://github.com/marceloamaro/Python-Mombaca/tree/master/1%20avaliação)
