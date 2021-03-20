@@ -72,18 +72,42 @@ for line in nomes.readlines():
     if line[0]=="A" and len(line)<=4:
         print(line.upper())
 nomes.close ()    
-"""
+
 #HTML
-with open("home.html", "w", encoding="utf-8")as home:
-    home.write("""
-<!DOCTYPE html>
-    <html lang="pt-br">
-        <head>
-            <title>Título da página</title>
-            <meta charset="utf-8">
-        </head>
+with open("index.html", "w", encoding="utf-8") as index:
+    index.write("""
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+       <meta charset= "utf-8">
+       <title>Titulo da Página</title>
+    <head>
     <body>
-    
-""")
-   </body>
-</html>
+    Olá!
+    </body>
+    </html>
+    """)
+    """
+filmes = { "drama":["Cidadão Kane", "O Poderoso Chefão"],
+ "comedia":["Tempos Modernos", "Desejo de Matar"],
+  "ficção":["Ad Astra", "Interestelar"],
+   "guerra" : ["1937", "Platoon", "Lágrimas do Sol"] }
+
+with open("filmes.html", "w", encoding="utf-8") as filme:
+    filme.write("""
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+       <meta charset= "utf-8">
+       <title>Filmes</title>
+    <head>
+    <body>
+
+    <h1 align="center"> Filmes</h1>
+         """)
+
+    for c, v in filmes.items():
+        filme.write(f"<h1>{c}</1h>\n") 
+        for e in v:
+            filme.write(f"<h3>{e}</h3>\n")
+    filme.write("</body></html>")
