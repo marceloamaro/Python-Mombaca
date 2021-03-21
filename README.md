@@ -34,7 +34,7 @@ marceloamaro/Python-Mombaca
  ## 📝 Aula 07
 * [Aula](https://github.com/marceloamaro/Python-Mombaca/tree/master/aula%207)
  
- * [Lista de Exercícios](https://github.com/marceloamaro/Python-Mombaca/tree/master/Lista%20Aula07%20-%20Dicion%C3%A1rios%20e%20Sets)
+ * [Lista de Exercícios](https://github.com/marceloamaro/Python-Mombaca/tree/master/Lista%20%20Aula08%20-%20Manipula%C3%A7%C3%A3o%20de%20%20)
  
  ## 📝 Avaliação 01
  
