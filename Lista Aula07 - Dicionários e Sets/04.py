@@ -3,6 +3,6 @@
 nome="marcelo"
 
 def estrutura(nome):
-    dic = {x : [x for x in range(0, 7) ] for x in nome}   
+    dic = {x : [x for x in range(7) ] for x in nome}   
     print(dic) 
 estrutura(nome)    
