@@ -7,18 +7,13 @@ def estrutura(nome):
     print("\n", dic) 
 estrutura(nome) 
 
-def vogais(nome):
-    i = 0
-    j = 0
+lista_vogais=['a','e','i','o','u','A','E','I','O','U']
+def vogais(nome,lista_vogais):
     for i in nome:
-        if (i == 'A' or i == 'a'
-        or i == 'E' or i == 'e'
-        or i == 'I' or i == 'i'
-        or i == 'O' or i == 'o'
-        or i == 'U' or i == 'u'):
-            j+=1
-    print("\n vogais:\n ", j)
-vogais(nome)
+        if i in lista_vogais:
+            print(i)
+
+vogais(nome,lista_vogais)
 
 def numeros(nome):
     b = {x : [x for x in range(7) if x %2 == 0 ] for x in nome}
