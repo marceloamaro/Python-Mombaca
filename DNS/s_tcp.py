@@ -1,10 +1,10 @@
 #servidor​  
 from socket import *
-host = gethostname()
-port = 55551
-print(f'HOST: {host} , PORT {port}')
+HOST = '127.0.0.1'              # Endereco IP do Servidor
+PORT = 65432
+print(f'HOST: {HOST} , PORT {PORT}')
 serv = socket(AF_INET, SOCK_STREAM)
-serv.bind((host, port))
+serv.bind((HOST, PORT))
 serv.listen(5)
 while 1:
     con, adr = serv.accept()
