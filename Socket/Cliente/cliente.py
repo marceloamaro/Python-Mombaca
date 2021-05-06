@@ -1,16 +1,18 @@
 import socket
 
-server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-server.bind(('localhost', 7777))
-server.listen(1)
+cliente.connect(('localhost', 7777))
+print('Conectado!!\n')
 
-connection, address = server.accept()
+namefile = str(input('Qual arquivo>'))
 
-namefile = connection.recv(1024).decode()
+cliente.send(namefile.encode())
 
-with open(namefile, 'rb') as file:
-    for data in file.readline():
-        connection.send(data)
-    
-    print('Arquivo enviado!')
+with open(namefile, 'wb') as file:
+    while 1:
+        data = cliente.recv(1000000)
+        if not data:
+            break
+        file.write(data)
+print(f'{namefile} recebido!\n')
